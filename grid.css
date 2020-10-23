@@ -1,33 +1,43 @@
 body{
-    background-color: #af8d5a;
+    background-color: gold;
 
 }
+
 header {
-    background-color: #f1f1f1;
+    background-color:sandybrown;
     text-align: center;
 }
+
 footer {
-    background-color: #f1f1f1;
-    text-align: center;
+    background-color: sandybrown;
+    font-family: fantasy;
+    font-size: medium;
+
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    white-space: normal;
+    width: 350px;
+
 }
 
 .wrapper {
     display: grid;
-    display: grid;
-    grid-template-columns: 30% 30% 40%;
+    grid-template-columns: 35% 30% 35%;
     grid-column-gap:1em ;
 }
 
 .wrapper > div {
-    background-color: #3498db;
     padding: 1em;
 
 }
 .wrapper > div:nth-child(ood){
     background: #af8d5a;
 }
-@media all (min-width 900px) {
-    .main{
-        grid:3 ;
+@media only screen and (max-width: 480px) {
+    .col { margin: 1% 0 1% 150px;}
+    .img ,footer,header { width: 100%;
     }
 }
