@@ -1,0 +1,183 @@
+body {
+    background-color: darkseagreen;
+}
+
+
+
+nav ul {
+    overflow:hidden;
+    color:cadetblue;
+    list-style: none;
+    float:left;
+    padding:0;
+    width: 650px;
+    margin:0 ;
+    background:lightskyblue;
+
+}
+nav.menu ul li {
+    margin:0;
+    float:left;
+}
+
+nav.menu ul a {
+    padding:25px;
+    display:block;
+    font-weight:600;
+    font-size: 16px;
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.sidebar {
+    float:right;
+    width:275px;
+}
+
+.sidebar .widget {
+    padding:25px;
+    margin:0 0 25px;
+    background:#fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.5s ease;
+}
+
+.sidebar .widget:hover {
+    border-bottom: 2px solid #3498db;
+}
+
+.sidebar .widget h2 {
+    padding:0;
+    margin:0 0 15px;
+    color:#3498db;
+    font-size: 18px;
+    font-weight:800;
+    text-transform: uppercase;
+}
+
+.sidebar .widget p {
+    font-size: 14px;
+}
+
+.sidebar .widget p:last-child {
+    margin:0;
+}
+
+.blog {
+    float:left;
+}
+
+.wrap {
+    width:600px;
+    padding:25px;
+    margin:25px auto;
+    background: #fff;
+    border:1px solid #dedede;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.h1 {
+    padding:0;
+    margin:0 0 15px;
+    font-weight: normal;
+    color: #666;
+}
+
+.post-info {
+    float: right;
+    font-size: 12px;
+    margin: -10px 0 15px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 960px) {
+
+    .header {
+        position:inherit;
+    }
+
+    .wrap {
+        width: 90%;
+        margin:25px auto;
+    }
+    .sidebar {
+        width:100%;
+        margin:25px 0 0;
+        float:right;
+    }
+
+    .sidebar .widget {
+        padding:5%;
+    }
+
+    nav.menu ul {
+        width: 100%;
+    }
+
+    nav.menu ul {
+        float:inherit;
+    }
+
+    nav.menu ul li {
+        float:inherit;
+        margin:0;
+    }
+
+    nav.menu ul a {
+        padding:15px;
+        font-size: 16px;
+        border-top:1px solid darkolivegreen;
+        border-bottom:1px solid darkcyan;
+    }
+
+    .blog {
+        width:90%;
+    }
+
+    .wrap {
+        float:inherit;
+        margin:0 auto 25px;
+        width:101%;
+        padding:5%;
+        background: oldlace;
+    }
+
+    .img {
+        max-width: 110%;
+        margin:0 0 25px -5%;
+        min-width: 110%;
+    }
+
+    .conteudo .continue-lendo:hover {
+        margin-left:0;
+    }
+
+
+}
+
+@media screen and (max-width: 460px) {
+
+    nav.menu ul a {
+        padding:15px;
+        font-size: 14px;
+    }
+
+    .sidebar {
+        display:none
+    }
+    .post-info {
+        display:none;
+    }
+
+    .wrap {
+        margin:25px auto;
+    }
+
+    .wrap img {
+        margin:-5% 0 25px -5%;
+    }
+}

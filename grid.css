@@ -1,0 +1,33 @@
+body{
+    background-color: #af8d5a;
+
+}
+header {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-column-gap:1em ;
+}
+
+.wrapper > div {
+    background-color: #3498db;
+    padding: 1em;
+
+}
+.wrapper > div:nth-child(ood){
+    background: #af8d5a;
+}
+@media all (min-width 900px) {
+    .main{
+        grid:3 ;
+    }
+}

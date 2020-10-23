@@ -1,0 +1,36 @@
+body{
+    background-color: #af8d5a;
+
+}
+header {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+main p{
+    display: flex;
+    font-size: 20px;
+}
+.flex-container {
+    display: flex;
+    background-color:bisque;
+}
+
+.flex-container > div {
+    background-color:brown;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+img{
+    width: 80%;
+    height: auto;
+}
+}
+@media all (min-width 900px) {
+    .main{
+        flex :3 ;
+    }
+}
