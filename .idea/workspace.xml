@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7ebe5d9-a7df-4069-a04d-f1d44f2bd577" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,9 @@
       <workItem from="1603460425634" duration="1285000" />
       <workItem from="1603467446119" duration="7535000" />
       <workItem from="1603477614846" duration="4380000" />
-      <workItem from="1603482117435" duration="3301000" />
+      <workItem from="1603482117435" duration="3986000" />
+      <workItem from="1603488133463" duration="869000" />
+      <workItem from="1603699923894" duration="871000" />
     </task>
     <servers />
   </component>
@@ -85,9 +87,13 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1603398864881" />
-    <state x="362" y="208" width="670" height="676" key="search.everywhere.popup" timestamp="1603485573500">
+    <state x="405" y="276" width="614" height="269" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1603488250706">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="362" y="208" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1603485573500" />
+    <state x="405" y="276" width="614" height="269" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.23.1440.877@0.23.1440.877" timestamp="1603488250706" />
+    <state x="362" y="208" width="670" height="676" key="search.everywhere.popup" timestamp="1603488289843">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="362" y="208" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1603488289843" />
   </component>
 </project>
